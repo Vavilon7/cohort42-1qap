@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'org.example'
+version = 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.10.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
+
+    implementation 'ch.qos.logback:logback-classic:1.5.5'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation 'io.qameta.allure:allure-testng:2.28.1'
+
+}
+
+test {
+    useTestNG()
+
+    if (project.hasProperty('browser')) {
+        systemProperty('browser', "${browser}")
+    }
+
+    finalizedBy('allureReport')
+}
+
+task qa(type: Test) {
+    useTestNG() {
+        suites("src/test/resources/regression.xml")
+    }
+
+    if (project.hasProperty('browser')) {
+        systemProperty('browser', "${browser}")
+    }
+
+    finalizedBy('allureReport')
+}

@@ -1,0 +1,8 @@
+rootProject.name = 'cohort42.2_QA'
+include 'QA_1_Fist_Project'
+include 'phonebook'
+include 'lesson'
+include 'QA_42.2_Phonebook_v1'
+include 'QA-42.2_Phonebook_v2_VOM'
+include 'QA_42.2_Phonebook_v2_POM'
+

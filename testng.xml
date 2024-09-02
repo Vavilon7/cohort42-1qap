@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Developmend/cohort42.2_QA/QA-42.2_Phonebook_v2_VOM/src/test/resources">
+        <classes/>
+    </test>
+</suite>
