@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA-42.2DemoQA_Selenium_Gradle-JUnit_POM_v1/Google-POM_Selenium.QA-42.2DemoQA_Selenium_Gradle-JUnit_POM_v1.iml" filepath="$PROJECT_DIR$/.idea/modules/QA-42.2DemoQA_Selenium_Gradle-JUnit_POM_v1/Google-POM_Selenium.QA-42.2DemoQA_Selenium_Gradle-JUnit_POM_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Google-POM_Selenium.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Google-POM_Selenium.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Google-POM_Selenium.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Google-POM_Selenium.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Google-POM_SeleniumGradle.iml" filepath="$PROJECT_DIR$/.idea/modules/Google-POM_SeleniumGradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA_33_DemoQA_Selenium_Gradle_JUnit_POM_v1/build.gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/QA_33_DemoQA_Selenium_Gradle_JUnit_POM_v1/build.gradle.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform('org.junit:junit-bom:5.9.1')
+    implementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.20.0'
+    implementation 'io.cucumber:cucumber-java:7.17.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.17.0'
+    implementation 'io.qameta.allure:allure-cucumber7-jvm:2.26.0'
+    implementation "org.seleniumhq.selenium:selenium-devtools-v129:4.25.0"
+    implementation "org.slf4j:slf4j-simple:1.7.32" // Or your desired SLF4J implementation
+
+}
+
+test {
+    useJUnit()
+    finalizedBy 'allureReport'
+}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+allureReport { // задаём новый адрес папки отчётов Allure
+    reportDir = file('build/allure-report')
+}
+
+allureReport { // перед созданием отчёта, удаляем старые результаты чтобы не мешались
+    dependsOn cleanAllureReport
+}

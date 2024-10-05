@@ -4,74 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e2bbc1-5232-47ef-8b99-4d9d2f591659" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/core/AppManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/model/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/page_helpers/BaseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/page_helpers/ContactHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/page_helpers/HomePageHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/main/java/page_helpers/UserHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/java/com/ait/qa/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/java/com/ait/qa/ContactTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/java/com/ait/qa/HomePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/java/com/ait/qa/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/resources/contacts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/src/test/resources/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_1_Fist_Project/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_1_Fist_Project/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_1_Fist_Project/src/test/java/CssSelectorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_1_Fist_Project/src/test/java/DemoShopTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_1_Fist_Project/src/test/java/FirstSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_1_Fist_Project/src/test/java/LocatorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/com/phonebook/tests/AboutPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/com/phonebook/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/com/phonebook/tests/ContactsPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/com/phonebook/tests/HomePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/com/phonebook/tests/LoginPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/data/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v1/src/test/java/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/core/AppManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/core/DataProviders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/model/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/pages/AddContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/pages/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/main/java/pages/NavigationPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/test/java/com/ait/qa/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/test/java/com/ait/qa/ContactTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/test/java/com/ait/qa/HomePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/test/java/com/ait/qa/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QA_42.2_Phonebook_v2_POM/src/test/resources/contacts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/src/test/java/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/src/test/java/XPathLocatorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phonebook/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phonebook/src/test/java/AboutPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phonebook/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phonebook/src/test/java/HomePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phonebook/src/test/java/LoginPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="17e2bbc1-5232-47ef-8b99-4d9d2f591659" name="Changes" comment="Add new commit">
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot12257595624744724732.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot13941865289703917381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot1448163386461470338.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot15233707937739941954.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot15352143719361332413.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot15951848209779210172.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot16007073955886035379.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot17617238551652812077.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot1790531417964867739.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot2182343931127228807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot2372753603388468700.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot2921314225645833490.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot5440045880935481629.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot5579351915556079006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot5992232939410991693.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot7767496789934069055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/screenshots/screenshot9095384276021134071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/src/main/java/core/AppManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/src/main/java/google/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/src/main/java/google/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/src/test/java/core/BaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google-POM_Selenium/src/test/java/google_tests/GoogleHomePageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_DemoQA_Selenium_Gradle_JUnit_POM_v1/src/main/java/demoQA/AlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_DemoQA_Selenium_Gradle_JUnit_POM_v1/src/main/java/demoQA/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_DemoQA_Selenium_Gradle_JUnit_POM_v1/src/main/java/demoQA/SidePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_DemoQA_Selenium_Gradle_JUnit_POM_v1/src/test/java/core/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_DemoQA_Selenium_Gradle_JUnit_POM_v1/src/test/java/demoQA_tests/AlertsPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_DemoQA_Selenium_Gradle_JUnit_POM_v1/src/test/java/demoQA_tests/HomePageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA-42.2_Phonebook_v2_VOM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +119,7 @@
     "Gradle.ContactTests (1).executor": "Run",
     "Gradle.ContactTests.executor": "Run",
     "Gradle.ContactTests.successAddContactTest.executor": "Run",
+    "Gradle.ContactTests.successAddContactTestDataProvider.executor": "Run",
     "Gradle.ContactTests.successAddContactTestDataProviderFromCsv.executor": "Run",
     "Gradle.ContactsPageTests.executor": "Run",
     "Gradle.CssSelectorTests.executor": "Run",
@@ -161,7 +145,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Developmend/cohort42.2_QA/QA-42.2_Phonebook_v2_VOM/src/test/resources",
+    "last_opened_file_path": "C:/Developmend/cohort42.2_QA/Google-POM_Selenium — копия",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2229885",
@@ -197,7 +181,31 @@
       <command value="gradle QA-42.2_Phonebook_v2_VOM:allureReport" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.cohort42.2_QA [qa]">
+  <component name="RunManager" selected="Gradle.ContactTests.successAddContactTestDataProvider">
+    <configuration name="ContactTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":QA-42.2_Phonebook_v2_VOM:test" />
+            <option value="--tests" />
+            <option value="&quot;com.ait.qa.ContactTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ContactTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -212,6 +220,30 @@
             <option value=":QA_42.2_Phonebook_v2_POM:test" />
             <option value="--tests" />
             <option value="&quot;com.ait.qa.ContactTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactTests.successAddContactTestDataProvider" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":QA_42.2_Phonebook_v2_POM:test" />
+            <option value="--tests" />
+            <option value="&quot;com.ait.qa.ContactTests.successAddContactTestDataProvider&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -246,52 +278,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HomePageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":QA_42.2_Phonebook_v2_POM:test" />
-            <option value="--tests" />
-            <option value="&quot;com.ait.qa.HomePageTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="cohort42.2_QA [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="cohort42.2_QA [qa]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -316,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.cohort42.2_QA [qa]" />
-        <item itemvalue="Gradle.cohort42.2_QA [dependencies]" />
+        <item itemvalue="Gradle.ContactTests.successAddContactTestDataProvider" />
         <item itemvalue="Gradle.ContactTests.successAddContactTestDataProviderFromCsv" />
         <item itemvalue="Gradle.ContactTests" />
-        <item itemvalue="Gradle.HomePageTests" />
+        <item itemvalue="Gradle.ContactTests (1)" />
+        <item itemvalue="Gradle.cohort42.2_QA [qa]" />
       </list>
     </recent_temporary>
   </component>
@@ -333,9 +319,58 @@
       <option name="presentableId" value="Default" />
       <updated>1724742626553</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add new commit">
+      <option name="closed" value="true" />
+      <created>1725291202484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725291202484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new commit" />
   </component>
 </project>
