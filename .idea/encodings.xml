@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/QA-42/src/test/java/restAssured/RestAssuredTests.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QA_42.2_Phonebook_4_Cucumber/src/test/resources/features/contact.feature" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

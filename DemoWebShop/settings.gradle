@@ -1,0 +1,4 @@
+rootProject.name = 'cohort42.2_QA'
+include 'DemoWebShop'
+include 'DemoWebShop:ProjektDemoTests'
+

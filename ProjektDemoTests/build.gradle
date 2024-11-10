@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id("io.qameta.allure") version "2.11.2"
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation 'org.seleniumhq.selenium:selenium-java:4.24.0'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5
+    testImplementation 'io.qameta.allure:allure-junit5:2.29.0'
+
+}
+test {
+    useJUnitPlatform() {
+        if (project.hasProperty('tags')) {
+            includeTags("${tags}")
+        }
+    }
+    testLogging {
+        events("passed", "skipped", "failed")
+    }
+    finalizedBy('allureReport')
+}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
